@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: center;
 }
@@ -28,6 +28,11 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
+.refresh-button{
+  padding: 7% 15%;
+  text-align: center;
+}
+
 img {
   width: 80%;
 }
@@ -37,5 +42,13 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+
+}
+@media (max-width: 1524px) { 
+  .header {font-size:4.5rem;}
+
+}
+@media (max-width: 1024px) { 
+  .header {font-size:3.5rem;}
 
 }
